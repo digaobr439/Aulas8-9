@@ -1,0 +1,89 @@
+html{
+    font-size: 150%;
+}
+
+/* h1{
+    display: inline;
+    color: white;
+    background-color: #110991;
+    text-align: left;
+    font-family: Cambria, serif;
+} */
+#titulo2{
+    background-color: aliceblue;
+    font-family: Cambria, serif;
+    color: #6965ab;
+    text-align: center;
+    border: 1px solid black;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+#titulo3{
+    background-color: aliceblue;
+    font-family: Cambria, serif;
+    color: #6965ab;
+    text-align: center;
+}
+h4{
+    font-family: Cambria, serif;
+    color: #6965ab;
+    text-align: center;
+}
+
+p{
+    font-family: Arial, sans-serif;
+}
+main{
+    background-color: #ccc;
+    padding: 0%;
+}
+main#descricao{
+    padding: 20px;
+}
+#lista{
+    font-family: Arial, sans-serif;
+    color: #cf17b6;
+    background-color: darkseagreen;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+#coordenador{
+    text-align: center;
+}
+.campus{
+    display: block;
+    font-family: Arial, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#campus1{
+    background-color: #b8b8b8;
+
+}
+#campus2{
+    background-color: #707070;
+}
+
+strong{
+    font-family: Cambria, serif;
+    color: black;
+    text-align: center;
+}
+
+@media (min-width: 1050px){
+    
+    #tabela-detalhes{
+        display: inline;
+        margin-left: 10%;
+        margin-right: 2%;
+    }
+    main{
+        display: block;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}

@@ -1,0 +1,14 @@
+#titulo {
+    background-color: aliceblue;
+    font-family: Cambria, serif;
+    color: #6965ab;
+    text-align: center;
+}
+
+@media (min-width: 1050px) {
+    #tabela {
+        display: inline;
+        margin-left: 0;
+        margin-right: 2%;
+    }
+}

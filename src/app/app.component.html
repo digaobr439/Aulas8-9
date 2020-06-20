@@ -1,14 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Maua</title>
 </head>
+
 <body>
-  <app-pagina-velha></app-pagina-velha>
+  <nav class="navbar navbar-light bg-primary fixed-top">
+    <a class="navbar-brand" href="#">
+      <img src="https://maua.br/img/default/logo_maua.png" width="63" class="d-inline-block align-top" alt="">
+      <span class="text-white text-center"> Instituto Mauá de Tecnologia</span>
+    </a>
+  </nav>
+  <h2 id=titulo2 style="margin-top: 100px;">Engenharia De Computação</h2>
+  <main>
+    <article id=descricao>
+      A Engenharia de Computação está presente em nosso dia a dia e nas mais diversas áreas: Educação, Indústrias,
+      Redes de Comunicação e Dispositivos Móveis, Transportes, Entreterimento, entre outras. Essa diversidade de
+      aplicações para o Engenheiro de Computação qualifica-o para atuar como desenvolvedor, engenheiro,
+      empreendedor, executivo de grandes corporações.
+    </article>
+
+    <article id=descricao>
+      A graduação em Engenharia de Computação da Mauá oferece aos alunos uma formação com base nos conceitos
+      fundamentais da Engenharia, até a formação especializada em Sistemas Embarcados, Software, Infraestrutura e
+      Segurança, Ciência de Dados e suas inter-relações. O profissional de Engenharia de Computação formado pela
+      Mauá está habilitado para atuar nas seguintes áreas e segmentos:
+      <ul id="lista">
+        <li>desenvolvimento de aplicações para sistemas embarcados;</li>
+        <li>desenvolvimento de games;</li>
+        <li>suporte a softwares para redes e cidades inteligentes;</li>
+        <li>novas tecnologias e desafios;</li>
+        <li>prestação de serviços e consultoria;</li>
+        <li>pesquisa e ensino superior.</li>
+      </ul>
+    </article>
+  </main>
+
+
+  <h3 id=titulo2>Coordenador</h3>
+
+  <p id="coordenador">Angelo Sebastiao Zanini</p>
+
+  <p id=coordenador>
+    <strong><i>Campus</i> de São Caetano do Sul</strong>
+  </p>
+  <table class="table table-hover table-striped table-bordered" id="tabela-detalhes">
+    <thead id="titulo3">
+      <tr>
+        <th>Característica</th>
+        <th>Detalhes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Duração</strong></td>
+        <td>5 anos</td>
+      </tr>
+      <tr>
+        <td><strong>Horário</strong></td>
+        <td>26 horas/semana</td>
+      </tr>
+      <tr>
+        <td><strong>Mensalidade</strong></td>
+        <td> R$ 3.150,00</td>
+      </tr>
+    </tbody>
+  </table>
+  <!-- <app-pagina-velha></app-pagina-velha> -->
+
+  
   <app-lista-cursos></app-lista-cursos>
   <app-lista-professores></app-lista-professores>
 
 </body>
+
 </html>

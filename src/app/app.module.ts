@@ -10,8 +10,7 @@ import { PaginaVelhaComponent } from './pagina-velha/pagina-velha.component';
   declarations: [
     AppComponent,
     ListaCursosComponent,
-    ListaProfessoresComponent,
-    PaginaVelhaComponent
+    ListaProfessoresComponent
   ],
   imports: [
     BrowserModule

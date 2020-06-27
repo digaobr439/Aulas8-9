@@ -4,13 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { ListaCursosComponent } from './lista-cursos/lista-cursos.component';
 import { ListaProfessoresComponent } from './lista-professores/lista-professores.component';
-import { PaginaVelhaComponent } from './pagina-velha/pagina-velha.component';
+import { AdicionarDisciplinaComponent } from './adicionar-disciplina/adicionar-disciplina.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListaCursosComponent,
-    ListaProfessoresComponent
+    ListaProfessoresComponent,
+    AdicionarDisciplinaComponent
   ],
   imports: [
     BrowserModule

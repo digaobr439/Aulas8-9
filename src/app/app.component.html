@@ -47,6 +47,9 @@
   <p id=coordenador>
     <strong><i>Campus</i> de São Caetano do Sul</strong>
   </p>
+
+  <app-adicionar-disciplina (cursoAdicionado)="onAdicionarCurso($event)"></app-adicionar-disciplina>
+
   <table class="table table-hover table-striped table-bordered" id="tabela-detalhes">
     <thead id="titulo3">
       <tr>
@@ -71,8 +74,8 @@
   </table>
   <!-- <app-pagina-velha></app-pagina-velha> -->
 
-  
-  <app-lista-cursos></app-lista-cursos>
+
+  <app-lista-cursos [cursos]="cursos"></app-lista-cursos>
   <app-lista-professores></app-lista-professores>
 
 </body>

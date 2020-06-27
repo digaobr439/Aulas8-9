@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { INFERRED_TYPE } from '@angular/compiler/src/output/output_ast';
 
 @Component({
   selector: 'app-lista-cursos',
@@ -6,5 +7,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./lista-cursos.component.css']
 })
 export class ListaCursosComponent{
-
+  @Input() cursos;
+  
 }
